@@ -1,0 +1,32 @@
+France Culture|http://icecast.radiofrance.fr/franceculture-midfi.mp3|France|French|Culture
+Europe 1|https://stream.europe1.fr/europe1.aac||France|French|Talk
+France Info|http://direct.franceinfo.fr/live/franceinfo-midfi.mp3|France|French|News
+France Inter|http://direct.franceinter.fr/live/franceinter-midfi.mp3|France|French|Talk
+Rire et Chansons - Live|https://scdn.nrjaudio.fm/adwz1/fr/30409/aac_64.mp3|France|French|Humor
+RTL|https://icecast.rtl.fr/rtl-1-44-128|France|French|Talk
+Sud Radio|https://ice.creacast.com/sudradio_aac|France|French|Talk
+Radio Citta Roma|https://gs3026.streamingmedia.it/stream/|Italy|Italian|Talk
+Radio Kiss Kiss|http://ice06.fluidstream.net/KKItalia.aac|Italy|Italian|Talk
+Radio Kiss Kiss - Napoli|https://kisskiss.fluidstream.eu/KKNapoli.aac|Italy|Italian|Talk
+Radio Marte|https://stream1.xdevel.com/audio0s975753-313/stream/icecast.audio|Italy|Italian|Talk
+Radio Romanista|https://romanista.newradio.it/stream|Italy|Italian|Talk
+Radio Solo Musica|https://onair7.xdevel.com/proxy/citysmi?mp=/stream/|Italy|Italian|Music
+Radio Sportiva|https://sportiva.inmystream.it/stream/sportiva|Italy|Italian|Sport
+Rai 1|https://icestreaming.rai.it/1.mp3|Italy|Italian|Talk
+Rai 2|https://icestreaming.rai.it/2.mp3|Italy|Italian|Talk
+Rai 3|https://icestreaming.rai.it/3.mp3|Italy|Italian|Talk
+Couleur 3|http://stream.srg-ssr.ch/m/couleur3/mp3_128|Switzerland|French|Talk
+LFM|http://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3|Switzerland|French|Talk
+Radio Bern|http://stream.rabe.ch/livestream/rabe-mid.mp3|Switzerland|German|Talk
+Radio Swiss Classic|http://www.radioswissclassic.ch/fr/live/aacp.m3u|Switzerland|German|Classical
+Radio Swiss Jazz|http://stream.srg-ssr.ch/m/rsp/mp3_128|Switzerland|German|Jazz
+Rouge FM|http://rouge-suisse.ice.infomaniak.ch/rouge-suisse-128.mp3|Switzerland|French|Talk
+RSI Rete Uno|http://stream.srg-ssr.ch/m/reteuno/mp3_128|Switzerland|Italian|Talk
+RSI Rete Due|http://stream.srg-ssr.ch/m/retedue/mp3_128|Switzerland|Italian|Talk
+RSI Rete Tre|http://stream.srg-ssr.ch/m/retetre/mp3_128|Switzerland|Italian|Talk
+RSR La Premiere|http://stream.srg-ssr.ch/la-1ere/aacp_32.m3u|Switzerland|Italian|Talk
+Sveriges Radio P1|http://sverigesradio.se/topsy/direkt/132-hi-aac.pls|Sweden|Swedish|Talk
+Sveriges Radio P2|https://http-live.sr.se/p2musik-aac-320|Sweden|Swedish|Talk
+Sveriges Radio P3|http://sverigesradio.se/topsy/direkt/164-hi-aac.pls|Sweden|Swedish|Talk
+Sveriges Radio P4 Malmöhus|http://sverigesradio.se/topsy/direkt/207-hi-aac.pls|Sweden|Swedish|Talk
+Sveriges Radio_P4 Stockholm|http://sverigesradio.se/topsy/direkt/701-hi-aac.pls|Sweden|Swedish|Talk
