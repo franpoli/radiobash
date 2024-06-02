@@ -1,5 +1,5 @@
 France Culture|http://icecast.radiofrance.fr/franceculture-midfi.mp3|France|French|Culture
-Europe 1|https://stream.europe1.fr/europe1.aac||France|French|Talk
+Europe 1|https://stream.europe1.fr/europe1.aac|France|French|Talk
 France Info|http://direct.franceinfo.fr/live/franceinfo-midfi.mp3|France|French|News
 France Inter|http://direct.franceinter.fr/live/franceinter-midfi.mp3|France|French|Talk
 Rire et Chansons - Live|https://scdn.nrjaudio.fm/adwz1/fr/30409/aac_64.mp3|France|French|Humor

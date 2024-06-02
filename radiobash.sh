@@ -20,10 +20,26 @@ SCRIPT_DIR=$(get_script_dir)
 # Path to the radio stations list file
 RADIO_LIST="$SCRIPT_DIR/radio_stations.txt"
 
-# Function to display the list of radio stations
+# Function to display the list of radio stations with optional filtering
 function list_stations() {
+    local country_filter="$1"
+    local language_filter="$2"
+    local genre_filter="$3"
+
     echo "Available radio stations:"
-    awk -F'|' '{print NR ". " $1 " (" $3 ", " $4 ", " $5 ")"}' "$RADIO_LIST"
+
+    awk -F'|' -v country="$country_filter" -v language="$language_filter" -v genre="$genre_filter" '
+    BEGIN {
+        count = 0;
+    }
+    {
+        if ((country == "" || $3 == country) &&
+            (language == "" || $4 == language) &&
+            (genre == "" || $5 == genre)) {
+            count++;
+            print count ". " $1 " (" $3 ", " $4 ", " $5 ")";
+        }
+    }' "$RADIO_LIST"
 }
 
 # Function to play a selected station
@@ -38,12 +54,20 @@ function play_station() {
     fi
 }
 
+# Function to list unique options for a field
+function list_unique_options() {
+    local field=$1
+    awk -F'|' -v field="$field" '{print $field}' "$RADIO_LIST" | sort | uniq
+}
+
 # Main menu
 while true; do
     echo "Radio Station Player"
     echo "1. Play a station"
-    echo "2. List stations"
-    echo "3. Exit"
+    echo "2. Filter stations by country"
+    echo "3. Filter stations by language"
+    echo "4. Filter stations by genre"
+    echo "5. Exit"
     echo -n "Choose an option: "
     read -r choice
 
@@ -54,8 +78,37 @@ while true; do
             read -r station_number
             play_station "$station_number"
             ;;
-        2) list_stations ;;
-        3) echo "Exiting..."; exit 0 ;;
+        2)
+            echo "Available countries:"
+            list_unique_options 3
+            echo -n "Enter country to filter by: "
+            read -r country
+            list_stations "$country" "" ""
+            echo -n "Enter the station number to play: "
+            read -r station_number
+            play_station "$station_number"
+            ;;
+        3)
+            echo "Available languages:"
+            list_unique_options 4
+            echo -n "Enter language to filter by: "
+            read -r language
+            list_stations "" "$language" ""
+            echo -n "Enter the station number to play: "
+            read -r station_number
+            play_station "$station_number"
+            ;;
+        4)
+            echo "Available genres:"
+            list_unique_options 5
+            echo -n "Enter genre to filter by: "
+            read -r genre
+            list_stations "" "" "$genre"
+            echo -n "Enter the station number to play: "
+            read -r station_number
+            play_station "$station_number"
+            ;;
+        5) echo "Exiting..."; exit 0 ;;
         *) echo "Invalid option" ;;
     esac
 done
