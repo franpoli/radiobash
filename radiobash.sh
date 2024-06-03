@@ -42,10 +42,27 @@ function list_stations() {
     }' "$RADIO_LIST"
 }
 
-# Function to play a selected station
+# Function to play a selected station based on filtered list
 function play_station() {
     local station_number=$1
-    local url=$(awk -F'|' -v num="$station_number" 'NR == num {print $2}' "$RADIO_LIST")
+    local country_filter="$2"
+    local language_filter="$3"
+    local genre_filter="$4"
+
+    local url=$(awk -F'|' -v num="$station_number" -v country="$country_filter" -v language="$language_filter" -v genre="$genre_filter" '
+    BEGIN { count = 0; }
+    {
+        if ((country == "" || $3 == country) &&
+            (language == "" || $4 == language) &&
+            (genre == "" || $5 == genre)) {
+            count++;
+            if (count == num) {
+                print $2;
+                exit;
+            }
+        }
+    }' "$RADIO_LIST")
+
     if [ -n "$url" ]; then
         echo "Playing station: $url"
         mpv "$url"
@@ -60,6 +77,39 @@ function list_unique_options() {
     awk -F'|' -v field="$field" '{print $field}' "$RADIO_LIST" | sort | uniq
 }
 
+# Function to add a new station
+function add_station() {
+    echo -n "Enter station name: "
+    read -r station_name
+    echo -n "Enter station URL: "
+    read -r station_url
+    echo -n "Enter station country: "
+    read -r station_country
+    echo -n "Enter station language: "
+    read -r station_language
+    echo -n "Enter station genre: "
+    read -r station_genre
+
+    # Append the new station to the radio list
+    echo "$station_name|$station_url|$station_country|$station_language|$station_genre" >> "$RADIO_LIST"
+
+    # Sort the list by Country, Language, Genre, then Station Name
+    sort -t'|' -k3,3 -k4,4 -k5,5 -k1,1 "$RADIO_LIST" -o "$RADIO_LIST"
+
+    echo "Station added and list sorted successfully!"
+}
+
+# Function to remove a station
+function remove_station() {
+    list_stations
+    echo -n "Enter the station number to remove: "
+    read -r station_number
+
+    # Remove the selected station
+    sed -i "${station_number}d" "$RADIO_LIST"
+    echo "Station removed successfully!"
+}
+
 # Main menu
 while true; do
     echo "Radio Station Player"
@@ -67,7 +117,9 @@ while true; do
     echo "2. Filter stations by country"
     echo "3. Filter stations by language"
     echo "4. Filter stations by genre"
-    echo "5. Exit"
+    echo "5. Add a new station"
+    echo "6. Remove an existing station"
+    echo "7. Exit"
     echo -n "Choose an option: "
     read -r choice
 
@@ -76,7 +128,7 @@ while true; do
             list_stations
             echo -n "Enter the station number to play: "
             read -r station_number
-            play_station "$station_number"
+            play_station "$station_number" "" "" ""
             ;;
         2)
             echo "Available countries:"
@@ -86,7 +138,7 @@ while true; do
             list_stations "$country" "" ""
             echo -n "Enter the station number to play: "
             read -r station_number
-            play_station "$station_number"
+            play_station "$station_number" "$country" "" ""
             ;;
         3)
             echo "Available languages:"
@@ -96,7 +148,7 @@ while true; do
             list_stations "" "$language" ""
             echo -n "Enter the station number to play: "
             read -r station_number
-            play_station "$station_number"
+            play_station "$station_number" "" "$language" ""
             ;;
         4)
             echo "Available genres:"
@@ -106,9 +158,20 @@ while true; do
             list_stations "" "" "$genre"
             echo -n "Enter the station number to play: "
             read -r station_number
-            play_station "$station_number"
+            play_station "$station_number" "" "" "$genre"
             ;;
-        5) echo "Exiting..."; exit 0 ;;
-        *) echo "Invalid option" ;;
+        5)
+            add_station
+            ;;
+        6)
+            remove_station
+            ;;
+        7)
+            echo "Exiting..."
+            exit 0
+            ;;
+        *)
+            echo "Invalid option"
+            ;;
     esac
 done

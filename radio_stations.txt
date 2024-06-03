@@ -1,32 +1,76 @@
+DR P8 Jazz|http://live-icy.dr.dk/A/A22H.mp3|Denmark|Danish|Jazz
+DR P1|http://live-icy.dr.dk/A/A03H.mp3|Denmark|Danish|News
+Davide of MIMIC|https://streaming04.liveboxstream.uk/proxy/davideof?mp=/stream|England|English|Classical
+Linn Classical|http://radio.linn.co.uk:8004/autodj|England|English|Classical
+SUB.FM|http://subfm.radioca.st/Sub.FM|England|English|Dub
+Soho Radio London|https://sohoradiomusic.doughunt.co.uk:8010/320mp3|England|English|Eclectic
+Linn Jazz|http://radio.linn.co.uk:8000/autodj|England|English|Jazz
+Naim Jazz|http://mscp3.live-streams.nl:8340/jazz-high.aac|England|English|Jazz
+Roots Legacy Radio|http://rootslegacy.fr:8080/;listen.mp3|France|English|Reggae
+France Musique|https://stream.radiofrance.fr/francemusique/francemusique_hifi.m3u8|France|French|Classical
+France Musique Classique Plus|https://stream.radiofrance.fr/francemusiqueclassiqueplus/francemusiqueclassiqueplus_hifi.m3u8|France|French|Classical
+France Musique La Contemporaine|https://stream.radiofrance.fr/francemusiquelacontemporaine/francemusiquelacontemporaine_hifi.m3u8|France|French|Contemporary
 France Culture|http://icecast.radiofrance.fr/franceculture-midfi.mp3|France|French|Culture
-Europe 1|https://stream.europe1.fr/europe1.aac|France|French|Talk
+Le Son Parisien|http://stream.lesonparisien.com/live.flac|France|French|Electronic
+Rire et Chansons Live|https://scdn.nrjaudio.fm/adwz1/fr/30409/aac_64.mp3|France|French|Humor
+Rire et chansons sketches|https://scdn.nrjaudio.fm/fr/30407/mp3_128.mp3?origine=fluxradios&cdn_path=adswizz_lbs8&adws_out_1&access_token=46730887809648d08da70a5fc3f9b24d|France|French|Humor
+France Musique La Jazz|https://stream.radiofrance.fr/francemusiquelajazz/francemusiquelajazz_hifi.m3u8|France|French|Jazz
 France Info|http://direct.franceinfo.fr/live/franceinfo-midfi.mp3|France|French|News
+France Musique Opera|https://stream.radiofrance.fr/francemusiqueopera/francemusiqueopera_hifi.m3u8|France|French|Opera
+frequence3|http://hd.stream.frequence3.net/frequence3.flac|France|French|Pop
+Europe 1|https://stream.europe1.fr/europe1.aac|France|French|Talk
 France Inter|http://direct.franceinter.fr/live/franceinter-midfi.mp3|France|French|Talk
-Rire et Chansons - Live|https://scdn.nrjaudio.fm/adwz1/fr/30409/aac_64.mp3|France|French|Humor
 RTL|https://icecast.rtl.fr/rtl-1-44-128|France|French|Talk
 Sud Radio|https://ice.creacast.com/sudradio_aac|France|French|Talk
+France Inter Paris|https://stream.radiofrance.fr/fip/fip_hifi.m3u8|France|French|World
+FluxFM 2000s Naughty|http://streams.fluxfm.de/flx_2000/mp3-320/streams.fluxfm.de/|Germany|German|2000s
+FluxFM 60s|https://streams.fluxfm.de/60er/mp3-320/streams.fluxfm.de/|Germany|German|60s
+FluxFM 70s|http://streams.fluxfm.de/70er/mp3-320/audio/|Germany|German|70s
+FluxFM 80s|http://streams.fluxfm.de/80er/mp3-320/streams.fluxfm.de/|Germany|German|80s
+FluxFM 90s|https://fluxmusic.api.radiosphere.io/channels/90s/stream.aac?quality=4|Germany|German|90s
+FluxFM B-Funk|http://streams.fluxfm.de/event01/mp3-320/streams.fluxfm.de/|Germany|German|Funk
+Radio Solo Musica|https://onair7.xdevel.com/proxy/citysmi?mp=/stream/|Italy|Italian|Music
+Radio Sportiva|https://sportiva.inmystream.it/stream/sportiva|Italy|Italian|Sport
 Radio Citta Roma|https://gs3026.streamingmedia.it/stream/|Italy|Italian|Talk
 Radio Kiss Kiss|http://ice06.fluidstream.net/KKItalia.aac|Italy|Italian|Talk
 Radio Kiss Kiss - Napoli|https://kisskiss.fluidstream.eu/KKNapoli.aac|Italy|Italian|Talk
 Radio Marte|https://stream1.xdevel.com/audio0s975753-313/stream/icecast.audio|Italy|Italian|Talk
 Radio Romanista|https://romanista.newradio.it/stream|Italy|Italian|Talk
-Radio Solo Musica|https://onair7.xdevel.com/proxy/citysmi?mp=/stream/|Italy|Italian|Music
-Radio Sportiva|https://sportiva.inmystream.it/stream/sportiva|Italy|Italian|Sport
 Rai 1|https://icestreaming.rai.it/1.mp3|Italy|Italian|Talk
 Rai 2|https://icestreaming.rai.it/2.mp3|Italy|Italian|Talk
 Rai 3|https://icestreaming.rai.it/3.mp3|Italy|Italian|Talk
-Couleur 3|http://stream.srg-ssr.ch/m/couleur3/mp3_128|Switzerland|French|Talk
-LFM|http://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3|Switzerland|French|Talk
-Radio Bern|http://stream.rabe.ch/livestream/rabe-mid.mp3|Switzerland|German|Talk
-Radio Swiss Classic|http://www.radioswissclassic.ch/fr/live/aacp.m3u|Switzerland|German|Classical
-Radio Swiss Jazz|http://stream.srg-ssr.ch/m/rsp/mp3_128|Switzerland|German|Jazz
-Rouge FM|http://rouge-suisse.ice.infomaniak.ch/rouge-suisse-128.mp3|Switzerland|French|Talk
-RSI Rete Uno|http://stream.srg-ssr.ch/m/reteuno/mp3_128|Switzerland|Italian|Talk
-RSI Rete Due|http://stream.srg-ssr.ch/m/retedue/mp3_128|Switzerland|Italian|Talk
-RSI Rete Tre|http://stream.srg-ssr.ch/m/retetre/mp3_128|Switzerland|Italian|Talk
-RSR La Premiere|http://stream.srg-ssr.ch/la-1ere/aacp_32.m3u|Switzerland|Italian|Talk
+Intense Radio|https://secure.live-streams.nl/flac.flac|Netherlands|Dutch|Dance
+Hi On Line Classical|http://mediaserv30.live-streams.nl:8088/live|Netherlands|English|Classical
+Hi On Line France|http://mediaserv21.live-streams.nl:8000/live|Netherlands|English|Contemporary
+Hi On Line Jazz|http://mediaserv38.live-streams.nl:8006/live|Netherlands|English|Jazz
+Hi On Line Latin|http://mediaserv33.live-streams.nl:8034/live|Netherlands|English|Latin
+Hi On Line Lounge|http://mediaserv33.live-streams.nl:8036/live|Netherlands|English|Lounge
+Hi On Line Gold|http://mediaserv30.live-streams.nl:8000/live|Netherlands|English|Oldies
+Hi On Line Pop|http://mscp2.live-streams.nl:8100/flac.flac|Netherlands|English|Pop
+Hi On Line World|http://mediaserv38.live-streams.nl:8027/live|Netherlands|English|World
 Sveriges Radio P1|http://sverigesradio.se/topsy/direkt/132-hi-aac.pls|Sweden|Swedish|Talk
 Sveriges Radio P2|https://http-live.sr.se/p2musik-aac-320|Sweden|Swedish|Talk
 Sveriges Radio P3|http://sverigesradio.se/topsy/direkt/164-hi-aac.pls|Sweden|Swedish|Talk
 Sveriges Radio P4 Malmöhus|http://sverigesradio.se/topsy/direkt/207-hi-aac.pls|Sweden|Swedish|Talk
 Sveriges Radio_P4 Stockholm|http://sverigesradio.se/topsy/direkt/701-hi-aac.pls|Sweden|Swedish|Talk
+1.FM Blues Radio|http://strm112.1.fm/blues_mobile_mp3|Switzerland|English|Blues
+SwissGroove|https://relay2.swissgroove.ch/|Switzerland|English|Groove
+MaXXima|http://maxxima.mine.nu:8000/maxx.ogg|Switzerland|French|Electronic
+Couleur 3|http://stream.srg-ssr.ch/m/couleur3/mp3_128|Switzerland|French|Talk
+LFM|http://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3|Switzerland|French|Talk
+Rouge FM|http://rouge-suisse.ice.infomaniak.ch/rouge-suisse-128.mp3|Switzerland|French|Talk
+Radio Swiss Classic|http://www.radioswissclassic.ch/fr/live/aacp.m3u|Switzerland|German|Classical
+Radio Swiss Jazz|http://stream.srg-ssr.ch/m/rsp/mp3_128|Switzerland|German|Jazz
+Radio Bern|http://stream.rabe.ch/livestream/rabe-mid.mp3|Switzerland|German|Talk
+RSI Rete Due|http://stream.srg-ssr.ch/m/retedue/mp3_128|Switzerland|Italian|Talk
+RSI Rete Tre|http://stream.srg-ssr.ch/m/retetre/mp3_128|Switzerland|Italian|Talk
+RSI Rete Uno|http://stream.srg-ssr.ch/m/reteuno/mp3_128|Switzerland|Italian|Talk
+RSR La Premiere|http://stream.srg-ssr.ch/la-1ere/aacp_32.m3u|Switzerland|Italian|Talk
+6forty Radio|http://54.173.171.80:8000/6forty|USA|English|Alternative
+A.M. Ambient|http://radio.stereoscenic.com/ama-h|USA|English|Ambient
+Ambient Sleeping Pill|http://radio.stereoscenic.com/asp-h|USA|English|Ambient
+Positivly Baroque|http://play.organlive.com:8002/320pb|USA|English|Baroque
+Jazz24|https://live.amperwave.net/direct/ppm-jazz24aac256-ibc1|USA|English|Jazz
+Radio Calico|https://d3d4yli4hf5bmh.cloudfront.net/hls/fLaC_hires.m3u8|USA|English|Pop
+Radio Paradise Rock|https://stream.radioparadise.com/rock-flacm|USA|English|Rock
+Radio Paradise World|https://stream.radioparadise.com/world-flacm|USA|English|World
