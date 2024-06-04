@@ -1,11 +1,13 @@
+SuperStereo Network|http://icecast.centaury.cl:7570/SuperStereoHiRes1Plus|Chile|Spanish|Disco
 DR P8 Jazz|http://live-icy.dr.dk/A/A22H.mp3|Denmark|Danish|Jazz
 DR P1|http://live-icy.dr.dk/A/A03H.mp3|Denmark|Danish|News
+CDNX|http://msmn7.co:8018/stream|England|English|Alternative
 Davide of MIMIC|https://streaming04.liveboxstream.uk/proxy/davideof?mp=/stream|England|English|Classical
 Linn Classical|http://radio.linn.co.uk:8004/autodj|England|English|Classical
 SUB.FM|http://subfm.radioca.st/Sub.FM|England|English|Dub
-Soho Radio London|https://sohoradiomusic.doughunt.co.uk:8010/320mp3|England|English|Eclectic
 Linn Jazz|http://radio.linn.co.uk:8000/autodj|England|English|Jazz
 Naim Jazz|http://mscp3.live-streams.nl:8340/jazz-high.aac|England|English|Jazz
+Soho Radio London|https://sohoradiomusic.doughunt.co.uk:8010/320mp3|England|English|World
 Roots Legacy Radio|http://rootslegacy.fr:8080/;listen.mp3|France|English|Reggae
 France Musique|https://stream.radiofrance.fr/francemusique/francemusique_hifi.m3u8|France|French|Classical
 France Musique Classique Plus|https://stream.radiofrance.fr/francemusiqueclassiqueplus/francemusiqueclassiqueplus_hifi.m3u8|France|French|Classical
@@ -39,6 +41,7 @@ Radio Romanista|https://romanista.newradio.it/stream|Italy|Italian|Talk
 Rai 1|https://icestreaming.rai.it/1.mp3|Italy|Italian|Talk
 Rai 2|https://icestreaming.rai.it/2.mp3|Italy|Italian|Talk
 Rai 3|https://icestreaming.rai.it/3.mp3|Italy|Italian|Talk
+Eldoradio|http://81.92.238.33:80|Luxembourg|Luxembourgish|Pop
 Intense Radio|https://secure.live-streams.nl/flac.flac|Netherlands|Dutch|Dance
 Hi On Line Classical|http://mediaserv30.live-streams.nl:8088/live|Netherlands|English|Classical
 Hi On Line France|http://mediaserv21.live-streams.nl:8000/live|Netherlands|English|Contemporary
@@ -55,11 +58,14 @@ Sveriges Radio P4 Malmöhus|http://sverigesradio.se/topsy/direkt/207-hi-aac.pls|
 Sveriges Radio_P4 Stockholm|http://sverigesradio.se/topsy/direkt/701-hi-aac.pls|Sweden|Swedish|Talk
 1.FM Blues Radio|http://strm112.1.fm/blues_mobile_mp3|Switzerland|English|Blues
 SwissGroove|https://relay2.swissgroove.ch/|Switzerland|English|Groove
+RTS - option musique|http://stream.srg-ssr.ch/m/option-musique/mp3_128|Switzerland|French|Alternative
 MaXXima|http://maxxima.mine.nu:8000/maxx.ogg|Switzerland|French|Electronic
 Couleur 3|http://stream.srg-ssr.ch/m/couleur3/mp3_128|Switzerland|French|Talk
 LFM|http://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3|Switzerland|French|Talk
 Rouge FM|http://rouge-suisse.ice.infomaniak.ch/rouge-suisse-128.mp3|Switzerland|French|Talk
+Kanal K|http://castext1.kanalk.ch:8200/|Switzerland|German|Alternative
 Radio Swiss Classic|http://www.radioswissclassic.ch/fr/live/aacp.m3u|Switzerland|German|Classical
+Radio SRF Musikwelle|http://streaming.swisstxt.ch/m/drsmw/mp3_128|Switzerland|German|Folk
 Radio Swiss Jazz|http://stream.srg-ssr.ch/m/rsp/mp3_128|Switzerland|German|Jazz
 Radio Bern|http://stream.rabe.ch/livestream/rabe-mid.mp3|Switzerland|German|Talk
 RSI Rete Due|http://stream.srg-ssr.ch/m/retedue/mp3_128|Switzerland|Italian|Talk
@@ -71,6 +77,7 @@ A.M. Ambient|http://radio.stereoscenic.com/ama-h|USA|English|Ambient
 Ambient Sleeping Pill|http://radio.stereoscenic.com/asp-h|USA|English|Ambient
 Positivly Baroque|http://play.organlive.com:8002/320pb|USA|English|Baroque
 Jazz24|https://live.amperwave.net/direct/ppm-jazz24aac256-ibc1|USA|English|Jazz
+SmoothJazz Global|https://smoothjazz.cdnstream1.com/2585_320.mp3|USA|English|Jazz
 Radio Calico|https://d3d4yli4hf5bmh.cloudfront.net/hls/fLaC_hires.m3u8|USA|English|Pop
 Radio Paradise Rock|https://stream.radioparadise.com/rock-flacm|USA|English|Rock
 Radio Paradise World|https://stream.radioparadise.com/world-flacm|USA|English|World
